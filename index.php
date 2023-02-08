@@ -9,7 +9,7 @@
         </header>
         <main>
             <div>
-                <h2>Menu Group 1</h2>
+                <h2>Menu Group 1</h2> 
             </div>
             <div>
                 <h2>Menu Group 2</h2>
