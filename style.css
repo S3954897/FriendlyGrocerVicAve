@@ -19,7 +19,7 @@ table {
 }
 
 .col1{
-    width: 570px;
+    width: 470px;
 }
 
 h1 {
@@ -41,7 +41,7 @@ div {
     box-sizing: border-box;
     border-radius: 10px;
     width: fit-content;
-    width: 660px;
+    width: 500px;
     height: 160px;
     background-color: #380000FF;
     margin: auto;
