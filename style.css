@@ -1,0 +1,59 @@
+body {
+    background: repeating-linear-gradient(0deg, #8c0202, #380000 5%, #8c0202 10%);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color: #EFFC93;
+    margin: 20px;
+}
+
+p, table {
+    font-family: "Arial Rounded MT Bold";
+    color: ghostwhite;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+.col1{
+    width: 570px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h1, h2, p, table{
+    text-shadow: 5px 5px black;
+}
+
+div {
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: fit-content;
+    width: 660px;
+    height: 160px;
+    background-color: #380000FF;
+    margin: auto;
+    padding: 20px
+}
+
+main {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div {
+    padding: 15px;
+}
