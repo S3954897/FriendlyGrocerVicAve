@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Nunito:ital,wght@1,600&family=Orbitron:wght@600&display=swap');
+
 body {
     background: repeating-linear-gradient(0deg, #8c0202, #380000 5%, #8c0202 10%);
     font-family: 'Orbitron', sans-serif;
@@ -7,7 +9,7 @@ body {
 }
 
 p, table {
-    font-family: "Arial Rounded MT Bold";
+    font-family: 'Nunito', sans-serif;
     color: ghostwhite;
     font-size: 16px;
     margin-top: 5px;
