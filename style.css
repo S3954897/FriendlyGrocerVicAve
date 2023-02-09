@@ -9,7 +9,7 @@ body {
 p, table {
     font-family: "Arial Rounded MT Bold";
     color: ghostwhite;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -41,8 +41,8 @@ div {
     box-sizing: border-box;
     border-radius: 10px;
     width: fit-content;
-    width: 500px;
-    height: 160px;
+    width: 580px;
+    height: 140px;
     background-color: #380000FF;
     margin: auto;
     padding: 20px
