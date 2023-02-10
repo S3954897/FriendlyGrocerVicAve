@@ -24,7 +24,7 @@ table {
 }
 
 .col1{
-    width: 470px;
+    width: 490px;
 }
 
 h1 {
@@ -47,7 +47,7 @@ div {
     box-sizing: border-box;
     border-radius: 10px;
     width: fit-content;
-    width: 580px;
+    width: 595px;
     height: 140px;
     background-color: #380000FF;
     margin: auto;
