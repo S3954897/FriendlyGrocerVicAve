@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@1,600&family=Titan+One&display=swap');
 
 
 body {
     background: #ffffff;
     width: 1200px;
     height: 680px;
-    font-family: 'Titan One', sans-serif;
+    font-family: 'Lobster', sans-serif;
     font-size: 1rem;
     color: #ff6000;
     margin: 20px;
