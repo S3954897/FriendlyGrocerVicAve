@@ -51,7 +51,7 @@ div {
     height: 140px;
     background-color: #380000FF;
     margin: auto;
-    padding: 20px
+    padding-left: 15px;
 }
 
 main {
@@ -59,7 +59,4 @@ main {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 10px;
-}
-div {
-    padding: 15px;
 }
