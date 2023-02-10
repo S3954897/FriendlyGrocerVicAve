@@ -8,7 +8,7 @@ body {
     height: 680px;
     font-family: 'Lobster', sans-serif;
     font-size: 1rem;
-    color: #ff6000;
+    color: #b64400;
     margin: 20px;
 }
 
@@ -41,7 +41,8 @@ h2 {
     margin-bottom: 2px;
 }
 
-h1, h2{
+h1 {
+    color: #ff5e00;
     /*text-shadow: 5px 5px black;*/
 }
 
