@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Nunito:ital,wght@1,600&family=Orbitron:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&family=Titan+One&display=swap');
+
 
 body {
-    background: repeating-linear-gradient(0deg, #8c0202, #380000 5%, #8c0202 10%);
+    background: #ffffff;
     width: 1200px;
     height: 680px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Titan One', sans-serif;
     font-size: 1rem;
-    color: #EFFC93;
+    color: #ff6000;
     margin: 20px;
 }
 
@@ -40,7 +42,7 @@ h2 {
 }
 
 h1, h2{
-    text-shadow: 5px 5px black;
+    /*text-shadow: 5px 5px black;*/
 }
 
 div {
