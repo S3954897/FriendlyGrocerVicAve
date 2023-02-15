@@ -3,16 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="30">
     <title>Friendly Grocer - Victoria Ave</title>
     <link id="stylecss" type="text/css" rel="stylesheet" href="style.css?t=<?= filemtime("style.css"); ?>">
+    <?php include "phpMain.php"; ?>
 </head>
     <body>
         <header>
-            <h1>Updater</h1>
+            <h1>Settings</h1>
         </header>
         <main>
-            <button onclick="<?php header("Refresh:0; url=/index.php")?>">Refresh Menu</button>
+            <form action="settings.php" method="post">
+                <input type="text" name="menu_item">
+                <input type="text" name="price">
+                <br>
+                <input type="submit" name="newItem" value="Submit">
+
+            </form>
         </main>
     </body>
 </html>

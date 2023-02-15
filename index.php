@@ -6,6 +6,10 @@
         <meta http-equiv="refresh" content="30">
         <title>Friendly Grocer - Victoria Ave</title>
         <link id="stylecss" type="text/css" rel="stylesheet" href="style.css?t=<?= filemtime("style.css"); ?>">
+        <?php include 'phpMain.php';?>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Jscript.js"></script>
+
     </head>
     <body>
         <header>
@@ -14,27 +18,33 @@
         <main>
             <div>
                 <article>
-                    <table>
-                        <tr>
-                            <td class="col1">Hash Brown</td>
-                            <td>$1.00</td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Bacon & Egg Roll with BBQ sauce</td>
-                            <td>$5.00</td>
-                        </tr>
-                        <tr>
-                            <td  class="col1">Bacon & Egg Roll with hollandaise sauce</td>
-                            <td>$5.50</td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Bacon & Egg Roll Muffin</td>
-                            <td>$4.30</td>
-                        </tr>
-                        <tr>
-                            <td class="col1">Sausages & Gravy</td>
-                            <td>$6.50</td>
-                        </tr>
+                    <table id="myTable">
+
+
+
+
+
+
+<!--                        <tr>-->
+<!--                            <td class="col1">Hash Brown</td>-->
+<!--                            <td>$1.00</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td class="col1">Bacon & Egg Roll with BBQ sauce</td>-->
+<!--                            <td>$5.00</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td  class="col1">Bacon & Egg Roll with hollandaise sauce</td>-->
+<!--                            <td>$5.50</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td class="col1">Bacon & Egg Roll Muffin</td>-->
+<!--                            <td>$4.30</td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td class="col1">Sausages & Gravy</td>-->
+<!--                            <td>$6.50</td>-->
+<!--                        </tr>-->
                     </table>
                 </article>
             </div>
